@@ -17,7 +17,7 @@ def number_of_subscribers(subreddit):
     Returns:
         int: number of subscribers
     """
-    base_url = 'https://www.reddit.com/r/'
+    base_url = 'https://www.reddit.com/r/Home/'
 
     url = '{}{}/about.json'.format(base_url, subreddit)
     headers = {
